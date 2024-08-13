@@ -1,9 +1,11 @@
 "use client"
-import { useState } from "react"
+import Header from "./components/Header/header"
 
 const Home = () => {
-  const [] = useState()
-  return <h1 className="bg text-red-500">Red text</h1>
+  return (
+    <div>
+      <Header />
+    </div>
+  )
 }
-
 export default Home
